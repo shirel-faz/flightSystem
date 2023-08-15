@@ -1,0 +1,14 @@
+.signUp-container {
+  width: 320px;
+  height: 460px;
+  padding: 25px;
+  background-color: #39383883;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-size: medium;
+  text-align: center;
+}
+
+.link{
+  color: black;
+}

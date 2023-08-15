@@ -1,0 +1,27 @@
+.homePage{
+  font-family: 'Ysabeau SC', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/public/pics/brightBlueclouds.jpg");
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.homeHeadline{
+  text-shadow: 0 0 50px #ffffff, 0 0 10px #ffffff, 0 0 40px #1a91c0, 0 0 55px #2d6979;
+  color: rgb(0, 225, 255);
+  transition: 850ms;
+  margin:4%;
+}
+
+.homeHeadline:hover{
+  transform: scale(1.2);
+    /* transform: translate(0px , 4px); */
+    text-shadow: 0 0 30px #ffffff, 0 0 3px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between; 
+}

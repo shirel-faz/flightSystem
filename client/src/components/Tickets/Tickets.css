@@ -1,0 +1,20 @@
+.table{
+  margin: 10% 15%;
+  width: 40%;
+  font-size: smaller;
+  border-radius: 26px;
+}
+
+.ths{
+  border: 18px rgb(249, 246, 246);
+  font-size: small;
+}
+
+.flight-item{
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.flight-item:hover{
+  transform: scale(1.01);
+}

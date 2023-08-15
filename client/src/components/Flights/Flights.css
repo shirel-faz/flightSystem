@@ -1,0 +1,44 @@
+.flightPage {
+  text-align: center;
+  width: 100vw;
+}
+
+.tableBox{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.flightHeadline{
+  text-shadow: 0 0 8px #ffffff,0 0 15px #ffffff, 0 0 10px #ffffff, 0 0 40px #74cbe3;
+  color: #47a4b3;
+  transition: 1000ms;
+  margin-top:5%;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: 800;
+}
+
+.flightHeadline:hover{
+  transform: scale(1.1);
+    /* transform: translate(0px , 4px); */
+    text-shadow: 0 0 30px #ffffff, 0 0 3px #ffffff, 0 0 40px #ffffff;
+}
+
+.table {
+  margin: 0% 5%;
+  width: 100vw;
+  border-radius: 26px;
+  font-family: 'Handlee', cursive;
+}
+
+.flight-item {
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.flight-item:hover {
+  transform: scale(1.01);
+}
+
