@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <style>
+        body {
+            /* margin: 0;
+            padding: 0; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* background-color: #f2f2f2; */
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            width: 350px;
+            /* height: 350px; */
+            padding: 25px;
+            background-color: #39383853;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            font-size: medium;
+        }
+
+        h2 {
+            text-align: center;
+            color: #f8f6f6;
+            margin-bottom: 5%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            background-color: #ffffffc9;
+        }
+
+        button {
+            padding: 10px 50px;
+            background-color: #0088cc;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #006699;
+        }
+
+        p{
+            margin-top: 10px;
+        }
+
+        .errorMessage {
+            color : "red"
+        }
+    </style>
+    <div class="login-container">
+        <div class=errorMessage>
+            <% if (typeof errorMessage !== 'undefined' && errorMessage) { %>
+                <p ><%= errorMessage %></p>
+            <% } %>
+        </div>
+        
+        <h2>Login</h2>
+        <!-- <form action="/login" method="post"> -->
+            <input type="text" placeholder="Username" name="Username" required>
+            <input type="password" placeholder="Password" name="Password" required>
+            <button type="submit">Login</button>
+        <!-- </form> -->
+        <p>Don't have an account? <a href="/signUp">Sign up</a></p>
+    </div>
+</body>
+
+</html>
